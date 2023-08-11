@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
+  min-height: 100px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#input-el {
+  width: 100%;
+  padding: 0.4em 1em;
+}
+#input-el:focus {
+  outline: none;
+}
+button {
+  margin: 1em auto 0 auto;
+  padding: 0.3em 1em;
+  background-color: #e09553;
+  border: 1px solid #e09553;
+  font-weight: bold;
+  color: #003b4a;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ul {
+  padding-left: 0.1em;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
